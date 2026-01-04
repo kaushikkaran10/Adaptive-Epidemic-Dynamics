@@ -116,18 +116,18 @@ python experiments/run_experiments.py
 The script will execute all scenarios, generate figures, and print summary statistics.
 
 ### Project Structure
-
+```
 adaptive-epidemic-model/
 ├── src/
-│   ├── sir_model.py          # SIR equations and solver
-│   ├── adaptive_control.py   # Transmission rate scenarios
-│   └── simulation.py         # Simulation logic
+│   ├── sir_model.py         
+│   ├── adaptive_control.py  
+│   └── simulation.py         
 ├── experiments/
-│   └── run_experiments.py    # Experiment runner
-├── figures/                  # Generated plots
+│   └── run_experiments.py    
+├── figures/                  
 ├── requirements.txt
 └── README.md
-
+```
 ### References
 
 * Kermack & McKendrick (1927), Proceedings of the Royal Society A
